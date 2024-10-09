@@ -377,7 +377,7 @@ class MyIdMenu: Reactor.Component {
 
     function showAbout() {
         var name = handler.get_app_name();
-        msgbox("custom-nocancel-nook-hasclose", translate("About") + " " + name, "<div style='line-height: 2em'> \
+        msgbox("custom-nocancel-nook-hasclose", translate("About") + " " + name + translate("About_Config"), "<div style='line-height: 2em'> \
             <div>Version: " + handler.get_version() + " \
             <div>Fingerprint: " + handler.get_fingerprint() + " \
             <div .link .custom-event url='https://remote.naeeo.com/privacy'>" + translate("Privacy Statement") + "</div> \
